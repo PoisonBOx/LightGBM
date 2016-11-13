@@ -7,7 +7,6 @@ import numpy as np
 from scipy import sparse
 
 def LoadDll():
-    """Load xgboost Library."""
     if os.name == 'nt':
         lib_path = '../../windows/x64/DLL/lib_lightgbm.dll'
     else:
